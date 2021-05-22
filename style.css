@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Girassol", cursive;
+}
+
+header #branding {
+  background-color: brown;
+  color: darkblue;
+  padding: 10px;
+  text-shadow: 3px 2px black;
+}
+header nav ul {
+  list-style: none;
+}
+
+header nav {
+  background-color: darkcyan;
+  color: darkgoldenrod;
+  padding: 5px;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: aqua;
+}
+
+header nav ul li a:hover {
+  color: aquamarine;
+  font-weight: bold;
+  background-color: black;
+}
+
+.main p {
+  text-align: center;
+  font-size: 2pc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: cadetblue 20px ridge;
+}
+
+.one {
+  margin: 20px;
+  padding: 10px;
+  border: chartreuse 10px ridge;
+}
+
+.one {
+  float: right;
+}
+
+.img {
+  float: left;
+}
+
+.two {
+  margin: 20px;
+  padding: 10px;
+  border: crimson 10px ridge;
+  float: left;
+}
+
+.img_2 {
+  float: right;
+}
+
+.fantasy {
+  margin: 20px;
+}
+
+.fiction {
+  margin: 20px;
+}
+
+.classics {
+  margin: 20px;
+}
+
+.fantasy h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.fiction h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.classics h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.yes {
+  border: blue 5px solid;
+  padding: 20px;
+  background-color: brown;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.none {
+  padding: 20px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+  .img {
+    width: 100%;
+  }
+  .img_2 {
+    width: 100%;
+  }
+  .one,
+  .two {
+    float: none;
+  }
+}
